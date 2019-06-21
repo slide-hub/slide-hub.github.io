@@ -1,0 +1,13 @@
+digraph {
+    rankdir="LR";
+    a [label="Linear Controller"]
+    b [label="Limiter"]
+    c [label="Logger"]
+    d [label="Pool Factory"]
+    A [label="Controller"]
+    B [label="Decorator"]
+    C [label="Decorator"]
+    D [label="Pool"]
+    a -> b ->c ->d
+    A -> B -> C -> D
+}

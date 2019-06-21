@@ -14,6 +14,7 @@ pipeline:
   - __type__: tardis.resources.poolfactory.create_composite_pool
     configuration: 'tardis.yml'
 ```
+![pipeline](img/pipeline.png)
 
 --
 
