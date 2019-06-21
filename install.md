@@ -43,4 +43,9 @@ $ source tardis_tutorial/bin/activate
 $ python3 -m pip install cobald-tardis
 ```
 
+* Change into `tardis` directory
+```bash
+$ cd tardis
+```
+
 > All dependencies are automatically installed as well

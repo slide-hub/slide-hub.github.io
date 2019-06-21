@@ -61,7 +61,7 @@ pipeline:
   - __type__: cobald.decorator.logger.Logger
     name: 'changes'
   - __type__: tardis.resources.poolfactory.create_composite_pool
-    configuration: 'totalfaketardis.yml'
+    configuration: 'tardis.yml'
 logging:
   version: 1
   root:
