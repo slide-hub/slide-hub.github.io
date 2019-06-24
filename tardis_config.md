@@ -20,7 +20,7 @@ BatchSystem:
   adapter: FakeBatchSystem
   allocation: 1.0
   utilization: !PeriodicValue
-               period: 3600
+               period: 600
                amplitude: 0.5
                offset: 0.5
                phase: 0.
@@ -54,8 +54,8 @@ Fake:
                       mu: 0.1
                       sigma: 0.01
   resource_boot_time: !RandomGauss
-                      mu: 60
-                      sigma: 10
+                      mu: 10
+                      sigma: 1
   MachineTypes:
     - m1.infinity # List of machine types
   MachineTypeConfiguration:
