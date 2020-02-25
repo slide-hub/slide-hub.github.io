@@ -1,8 +1,8 @@
 ### COBalD Configuration
 
-COBalD can be configure using:
+`COBalD` can be configure using:
 * YAML configuration
-* Python configuration
+* Python configuration (Not part of this tutorial!)
 
 Details can be found in the [`COBalD` Documentation.](https://cobald.readthedocs.io/en/latest/source/daemon/config.html)
 
@@ -27,7 +27,6 @@ pipeline:
     name: 'changes'
   # Factory function to create composite resource pool 
   - __type__: tardis.resources.poolfactory.create_composite_pool
-    configuration: 'tardis.yml'
 ```
 ![pipeline](img/pipeline.png)
 
@@ -79,7 +78,6 @@ pipeline:
   - __type__: cobald.decorator.logger.Logger
     name: 'changes'
   - __type__: tardis.resources.poolfactory.create_composite_pool
-    configuration: 'tardis.yml'
 logging:
   version: 1
   root:
@@ -101,20 +99,3 @@ logging:
       maxBytes: 10485760
       backupCount: 3
 ```
-
---
-
-<!-- .element: style="font-size:80%;" -->
-### COBalD Python Configuration
-#### Defining Pipelines
-
-```python
-from cobald.controller.linear import LinearController
-from cobald.decorator.limiter import Limiter
-from cobald.decorator.logger import Logger
-from tardis.resources.poolfactory import create_composite_pool
-
-pipeline = LinearController.s(low_utilisation=0.9, high_allocation=0.9) >> Limiter.s(minimum=1) >> Logger.s(name='changes') >> create_composite_pool('tardis.yml')
-```
-![pipeline](img/pipeline.png)
-

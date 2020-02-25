@@ -1,6 +1,6 @@
 ## COBalD/TARDIS 
 ### Tutorial
 #### ErUM Data Cloud Workshop
-###### Karlsruhe 27.06.2019
+###### Aachen 28.02.2020
 
 [Manuel Giffels](mailto:giffels@gmail.com)
