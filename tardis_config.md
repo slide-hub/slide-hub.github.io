@@ -19,7 +19,7 @@ More plugins can be found in the [TARDIS Documentation](https://cobald-tardis.re
 BatchSystem:
   adapter: FakeBatchSystem
   allocation: 1.0
-  utilization: !PeriodicValue
+  utilization: !TardisPeriodicValue
                period: 600
                amplitude: 0.5
                offset: 0.5
@@ -50,10 +50,10 @@ More site adapters can be found in the [TARDIS Documentation](https://cobald-tar
 ```yaml
 Fake: 
   # Configuration of the site adapter
-  api_response_delay: !RandomGauss
+  api_response_delay: !TardisRandomGauss
                       mu: 0.1
                       sigma: 0.01
-  resource_boot_time: !RandomGauss
+  resource_boot_time: !TardisRandomGauss
                       mu: 10
                       sigma: 1
   MachineTypes:
@@ -97,7 +97,7 @@ tardis:
   BatchSystem:
     adapter: FakeBatchSystem
     allocation: 1.0
-    utilization: !PeriodicValue
+    utilization: !TardisPeriodicValue
                  period: 3600
                  amplitude: 0.5
                  offset: 0.5
@@ -110,10 +110,10 @@ tardis:
       quota: 8000 # CPU core quota
   
   Fake:
-    api_response_delay: !RandomGauss
+    api_response_delay: !TardisRandomGauss
                         mu: 0.1
                         sigma: 0.01
-    resource_boot_time: !RandomGauss
+    resource_boot_time: !TardisRandomGauss
                         mu: 60
                         sigma: 10
     MachineTypes:
@@ -171,7 +171,7 @@ tardis:
   BatchSystem:
     adapter: FakeBatchSystem
     allocation: 1.0
-    utilization: !PeriodicValue
+    utilization: !TardisPeriodicValue
                  period: 3600
                  amplitude: 0.5
                  offset: 0.5
@@ -184,10 +184,10 @@ tardis:
       quota: 8000 # CPU core quota
   
   Fake:
-    api_response_delay: !RandomGauss
+    api_response_delay: !TardisRandomGauss
                         mu: 0.1
                         sigma: 0.01
-    resource_boot_time: !RandomGauss
+    resource_boot_time: !TardisRandomGauss
                         mu: 60
                         sigma: 10
     MachineTypes:
