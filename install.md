@@ -8,14 +8,9 @@
 
 ### Virtual Environment
 
-* Install `virtualenv` if not available
-```bash
-$ python3 -m pip install virtualenv
-```
-
 * Create a new virtual environment
 ```bash
-$ python3 -m virtualenv tardis_tutorial
+$ python3 -m venv tardis_tutorial
 ```
 * Activate your virtual environment
 ```bash
