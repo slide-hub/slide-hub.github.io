@@ -19,7 +19,7 @@ More plugins can be found in the [TARDIS Documentation](https://cobald-tardis.re
 BatchSystem:
   adapter: FakeBatchSystem
   allocation: 1.0
-  utilization: !TardisPeriodicValue
+  utilisation: !TardisPeriodicValue
                period: 600
                amplitude: 0.5
                offset: 0.5
@@ -97,7 +97,7 @@ tardis:
   BatchSystem:
     adapter: FakeBatchSystem
     allocation: 1.0
-    utilization: !TardisPeriodicValue
+    utilisation: !TardisPeriodicValue
                  period: 3600
                  amplitude: 0.5
                  offset: 0.5
@@ -171,7 +171,7 @@ tardis:
   BatchSystem:
     adapter: FakeBatchSystem
     allocation: 1.0
-    utilization: !TardisPeriodicValue
+    utilisation: !TardisPeriodicValue
                  period: 3600
                  amplitude: 0.5
                  offset: 0.5
