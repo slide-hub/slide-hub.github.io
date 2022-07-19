@@ -1,7 +1,7 @@
 ### Prerequisites
 
 * On your computer
-	* Python 3.6, 3.7 or 3.8 [(HowTo?)](https://www.anaconda.com/distribution/)
+	* Python >=3.6	[(HowTo?)](https://www.anaconda.com/distribution/)
 	* `pip` installed   [(HowTo?)](https://pip.pypa.io/en/stable/installing/)
 
 ---
