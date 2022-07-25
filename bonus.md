@@ -27,7 +27,7 @@ Emmy:
 
 --
 
-<!-- .element: style="font-size:45%;" -->
+<!-- .element: style="font-size:70%;" -->
 #### Configure MachineTypes
 ```yaml
 MachineTypeConfiguration:
