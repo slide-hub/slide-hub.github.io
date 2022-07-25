@@ -8,6 +8,8 @@ Sites:
     quota: 1000
 ```
 
+> More parameters can be found in [TARDIS Documentation](https://cobald-tardis.readthedocs.io/en/latest/adapters/site.html#generic-site-adapter-configuration)
+
 --
 
 #### Configure SLURM SiteAdapter
@@ -24,6 +26,8 @@ Emmy:
     - one_day
     - two_days
 ```
+
+> More parameters can be found in [TARDIS Documentation](https://cobald-tardis.readthedocs.io/en/latest/adapters/site.html#slurm-site-adapter)
 
 --
 
@@ -43,7 +47,7 @@ MachineTypeConfiguration:
     two_days:
       Walltime: '2880'
       Partition: normal
-      StartupCommand: 'pilot_clean.sh'
+      StartupCommand: 'pilot.sh'
       SubmitOptions:
         long:
           gres: "gpu:2,mic:1"
