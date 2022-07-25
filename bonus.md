@@ -8,7 +8,7 @@ Sites:
     quota: 1000
 ```
 
-> More parameters can be found in [TARDIS Documentation](https://cobald-tardis.readthedocs.io/en/latest/adapters/site.html#generic-site-adapter-configuration)
+> More parameters can be found in the [TARDIS Documentation](https://cobald-tardis.readthedocs.io/en/latest/adapters/site.html#generic-site-adapter-configuration)
 
 --
 
@@ -27,7 +27,7 @@ Emmy:
     - two_days
 ```
 
-> More parameters can be found in [TARDIS Documentation](https://cobald-tardis.readthedocs.io/en/latest/adapters/site.html#slurm-site-adapter)
+> More parameters can be found in the [TARDIS Documentation](https://cobald-tardis.readthedocs.io/en/latest/adapters/site.html#slurm-site-adapter)
 
 --
 
