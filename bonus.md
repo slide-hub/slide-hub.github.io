@@ -27,6 +27,7 @@ Emmy:
 
 --
 
+<!-- .element: style="font-size:45%;" -->
 #### Configure MachineTypes
 ```yaml
 MachineTypeConfiguration:
@@ -48,7 +49,7 @@ MachineTypeConfiguration:
           gres: "gpu:2,mic:1"
 ```
 
----
+--
 
 #### Configure MachineMetaData
 ```yaml
@@ -63,7 +64,8 @@ MachineMetaData:
       Disk: 480
 ```
 
----
+--
+
 <!-- .element: style="font-size:45%;" -->
 #### Entire SLURM SiteAdapter Configuration
 ```yaml
