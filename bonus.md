@@ -58,7 +58,7 @@ MachineMetaData:
       Cores: 20
       Memory: 62
       Disk: 480
-    twp_days:
+    two_days:
       Cores: 20
       Memory: 62
       Disk: 480
